@@ -1,0 +1,55 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+div {
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+label {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type=checkbox], input[type=radio] {
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+}
+
+/* checkbox unchecked */
+input[type=checkbox] {
+	background: url('../sprites/form-elements-sprite.png') no-repeat 12.22% 49.585%;
+	width: 70px;
+  height: 70px;
+  /* background-size: 70px 70px; */
+}
+
+/* checkbox checked */
+input[type=checkbox]:checked {
+    background: url('../sprites/form-elements-sprite.png') no-repeat 29.466% 49.585%;
+    width: 70px;
+    height: 70px;
+    /* background-size: 70px 70px; */
+}
+
+/* radio unchecked */
+input[type=radio] {
+	background: url('../sprites/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+/* radio checked */
+input[type=radio]:checked {
+	background: url('../sprites/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
